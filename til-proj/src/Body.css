@@ -1,0 +1,36 @@
+.menu-select {
+  width: 500px;
+  height: 700px;
+  border: 1px solid #dadada;
+  text-align: center;
+}
+
+.body {
+  display: 'flex';
+  flex: 1;
+  width: 100%;
+  flex-direction: 'column';
+}
+
+.editor-menu {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.editor-menu-button {
+  display: flex;
+}
+.editor-menu-button:hover {
+  opacity: 0.6;
+}
+.list-item {
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+.list-item:hover {
+  opacity: 0.5;
+}
